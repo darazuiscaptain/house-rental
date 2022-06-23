@@ -1,0 +1,863 @@
+.ownerImage {
+  background-image: linear-gradient(
+      rgba(69, 10, 79, 0.5),
+      rgba(146, 27, 167, 0.5)
+    ),
+    url("/images/Bungalow Rendering.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ownerImage p {
+  font-size: 400%;
+  font-weight: 700;
+  color: #fff;
+}
+.ownerpage button {
+  border-radius: 10px;
+  background: #fff;
+  font-size: 90%;
+  font-weight: 600;
+}
+.ownertab {
+  min-height: 89vh;
+}
+.ownerpage {
+  background: #142740;
+}
+.main-container {
+  background: url("/images/hrms-assets.jpg");
+  background-size: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+.header-container {
+  background: none;
+  font-family: "Quicksand", sans-serif;
+  color: #fff !important;
+}
+.header-container .main-logo {
+  color: #fff;
+  font-weight: 700;
+  font-size: 150%;
+}
+.header-container .header-links {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+  font-size: 100%;
+  position: relative;
+}
+.header-container .header-links.active {
+  color: #fff;
+  font-size: 105%;
+}
+.header-container .header-links.active::after {
+  transform: translateX(-25px);
+  border-radius: 100%;
+  position: absolute;
+  background: #834bff;
+  bottom: 0px;
+  height: 6px;
+  content: "";
+  width: 6px;
+}
+.header-container .header-login-btn {
+  color: #fff;
+  background: #834bff;
+  padding: 9px 35px;
+  border: none;
+  border-radius: 10px;
+  font-size: 110%;
+  font-weight: 500;
+  margin-right: 0;
+}
+.home-page {
+}
+.home-page .text-container {
+  color: #fff;
+  padding: 8% 0% 8% 6%;
+}
+
+.home-page .text-container .heading {
+  font-weight: 800;
+  font-size: 400%;
+  line-height: 130%;
+}
+.home-page .text-container .title {
+  font-weight: 500;
+  font-size: 110%;
+  color: rgba(255, 255, 255, 0.6);
+}
+.home-page .button-container {
+  padding: 4% 0%;
+}
+.home-page .button-container .section-front-btn {
+  border: none;
+  padding: 2% 4%;
+  margin-right: 3.5%;
+  border-radius: 10px;
+  background-color: #834bff;
+  color: #fff;
+  font-weight: 500;
+}
+.home-page .image-container {
+  padding: 2% 8% 0% 4%;
+}
+.home-page .image-container .image {
+  width: 100%;
+}
+.home-content {
+  background-color: #fff;
+}
+.home-content .image-container {
+  padding: 4% 5% 4% 7%;
+}
+.home-content .image-container .image {
+  width: 100%;
+  border-radius: 25px;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.5);
+}
+.home-content .text-container {
+  padding: 6% 6% 0% 0%;
+}
+.home-content .text-container .heading {
+  font-size: 200%;
+  font-weight: 700;
+}
+.home-content .text-container .content {
+  font-family: "Quicksand", sans-serif;
+  font-size: 90%;
+}
+.home-content .box-container {
+  padding-bottom: 6%;
+}
+.home-content .box-container .box-wrapper {
+  padding: 2%;
+}
+.home-content .box-container .box {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #000;
+  border-radius: 10px;
+  padding: 10%;
+  font-weight: 500;
+}
+.home-content .box-container .box.active {
+  background-image: linear-gradient(135deg, #10232c, #101010);
+  color: #fff;
+  box-shadow: 0px 20px 15px rgba(0, 0, 0, 0.3);
+}
+.home-content .box-container .box .icon {
+  font-size: 130%;
+  padding: 2% 4% 20% 5%;
+}
+.home-content .get-started-btn {
+  border: none;
+  background-color: #834bff;
+  padding: 2% 4%;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 2%;
+}
+.about-page {
+  background: url("/images/about-bg1.png") no-repeat -40% -400%,
+    linear-gradient(#0c0c1d 75%, #fff 75%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4% 10%;
+  /* background-size: 40%;
+background-repeat: no-repeat; */
+}
+.about-page .heading {
+  font-family: "Montserrat", sans-serif;
+  padding: 0% 30%;
+  font-size: 240%;
+  font-weight: 600;
+  color: #fff;
+}
+.about-page .title {
+  font-weight: 500;
+  font-size: 85%;
+  padding: 0% 33%;
+  color: rgba(255, 255, 255, 0.6);
+}
+.about-page .box-container {
+  padding: 3% 8%;
+}
+.about-page .box-container .box-wrapper {
+  padding: 0% 1%;
+}
+.about-page .box-container .box {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.about-page .box-container .box .image-container {
+  position: relative;
+  background-size: cover;
+  padding: 7% 0%;
+}
+.about-page .box-container .box .image1 {
+  background-image: url("/images/card1.jpg");
+}
+.about-page .box-container .box .image2 {
+  background-image: url("/images/card2.jpg");
+}
+.about-page .box-container .box .image3 {
+  background-image: url("/images/card3.jpg");
+}
+.about-page .box-container .box .card-title {
+  color: #fff;
+  font-size: 230%;
+  font-weight: 600;
+  padding: 0% 15%;
+  line-height: 130%;
+}
+.about-page .text-container {
+  padding: 8% 12%;
+}
+.about-page .text-container .content {
+  font-size: 90%;
+  padding-bottom: 6%;
+  font-family: "Quicksand", sans-serif;
+}
+.about-page .text-container .card-btn {
+  border: none;
+  color: #000;
+  padding: 3% 0%;
+  width: 100%;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 90%;
+}
+.about-page .text-container .card-btn.active,
+.about-page .text-container .card-btn:hover {
+  background-color: #834bff;
+  color: #fff;
+}
+.login-page {
+}
+.login-page .image-container {
+  background-image: linear-gradient(
+      rgba(69, 10, 79, 0.5),
+      rgba(146, 27, 167, 0.5)
+    ),
+    url("/images/home-content-img3.jpg");
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-page .image-container p {
+  color: #fff;
+  font-size: 150%;
+  font-weight: 600;
+}
+.login-page .image-container button {
+  color: #fff;
+  font-weight: 600;
+  border: 2px solid white;
+  background: transparent;
+  padding: 10px 40px;
+  border-radius: 100px;
+}
+.login-page .image-container button:hover {
+  background: #fff;
+  color: rgb(77, 8, 90);
+}
+.login-page .login-content,
+.registration-page {
+  background: #efefef;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6.35% 0%;
+}
+.login-page .login-content h2,
+.registration-page h2 {
+  font-size: 150%;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.login-page .login-form,
+.registration-page .registration-form {
+  background: #f5f5f5;
+  width: 45%;
+  padding: 6% 6.5% 8% 6.5%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+}
+.login-page .login-form label,
+.registration-form label,
+.pay-now .pay-now-form label {
+  font-size: 90%;
+  font-weight: 600;
+  color: #000;
+  margin: 0%;
+  padding-bottom: 3px;
+}
+.login-page .login-form input,
+.login-page .login-form select,
+.login-page .login-form option,
+.registration-form input,
+.registration-form select,
+.registration-form option,
+.pay-now .pay-now-form input,
+.pay-now .pay-now-form select,
+.pay-now .pay-now-form option {
+  background: transparent;
+  font-size: 80%;
+  border-radius: 8px;
+}
+.login-page .login-form button,
+.registration-form button,
+.pay-now .pay-now-form button {
+  width: 100%;
+  background: linear-gradient(90deg, #b300f5, #8000f5);
+  border: none;
+  border-radius: 100px;
+}
+.registration-page {
+  padding-top: 2%;
+}
+
+.show-houses {
+  background: #fff;
+  padding: 2% 7%;
+}
+.show-houses .item-box {
+  padding: 10px;
+}
+.show-houses .item {
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+.show-houses .image-container {
+  padding: 4%;
+  position: relative;
+}
+
+.show-houses .image-container .image {
+  width: 100%;
+  border-radius: 10px;
+}
+.show-houses .status-box {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 90%;
+}
+.show-houses .status-box .icon {
+  display: inline-block;
+  color: #000;
+  background: #fff;
+  border-radius: 100px;
+  padding: 2% 6.6%;
+  margin-right: 10px;
+}
+
+.show-houses .status-box .status {
+  display: inline-block;
+  text-transform: capitalize;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 2% 8%;
+  color: #000;
+  font-weight: 600;
+  border-radius: 100px;
+}
+.show-houses .content {
+  padding: 5%;
+  font-size: 90%;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+}
+.show-houses b {
+  color: #000;
+  font-size: 130%;
+  font-weight: 700;
+}
+.show-houses .address{
+  text-transform: capitalize;
+}
+.show-houses button {
+  width: 100%;
+  background: #834bff;
+  border: none;
+  font-weight: 500;
+  border-radius: 100px;
+  padding: 2% 0%;
+  color: #fff;
+}
+.house-detail {
+  background: #fff;
+}
+.house-detail .btn {
+  /* width: 30%; */
+  padding: 2% 10%;
+  background: linear-gradient(90deg, #b300f5, #8000f5);
+  border: none;
+  color: #fff;
+  border-radius: 100px;
+  font-weight: 500;
+}
+.house-detail .image-container {
+  padding: 4% 3% 0% 4%;
+  border-radius: 20px;
+}
+.house-detail .text-container {
+  padding: 5% 3%;
+  font-weight: 600;
+}
+.view-profile-form {
+  background: #f1f1f1;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  font-size: 90%;
+  font-weight: 550;
+  padding: 2% 0%;
+}
+.view-profile-form select,
+.view-profile-form option,
+.view-profile-form input {
+  font-size: 80%;
+  font-weight: 500;
+}
+.view-profile-form h1 {
+  text-align: center;
+}
+.update-detail {
+  padding: 0% 0%;
+}
+.update-detail .update-detail-form {
+  background: #f1f1f1;
+  width: 50%;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  padding: 0% 5% 0% 5%;
+  font-size: 90%;
+  font-weight: 550;
+}
+.update-detail input {
+  background: transparent;
+}
+.update-detail select,
+.update-detail option,
+.update-detail input {
+  font-size: 85%;
+  font-weight: 500;
+}
+.update-detail h1 {
+  text-align: center;
+  padding-bottom: 5%;
+}
+.update-detail button {
+  width: 50%;
+  margin-left: 25%;
+  background: linear-gradient(90deg, #b300f5, #8000f5);
+}
+.change-password {
+}
+.change-password-form {
+  background: #f1f1f1;
+  width: 40%;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  padding: 0% 6%;
+  font-size: 90%;
+  font-weight: 550;
+}
+.change-password h3 {
+  font-size: 160%;
+  font-weight: 600;
+  text-align: center;
+}
+.change-password input {
+  font-size: 120%;
+  font-weight: 500;
+  background: transparent;
+}
+.change-password button {
+  background: linear-gradient(90deg, #b300f5, #8000f5);
+  margin-left: 25%;
+  width: 50%;
+}
+.pay-now {
+  background: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3% 0%;
+}
+.pay-now-container {
+  width: 40%;
+  background: #f1f1f1;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+.pay-now .pay-now-form {
+  width: 100%;
+  padding: 3% 8%;
+}
+.pay-now .pay-now-form input {
+}
+.pay-now h2 {
+  text-align: center;
+  font-size: 180%;
+  font-weight: 550;
+  padding-bottom: 3%;
+}
+.pay-now .pay-now-form button {
+  width: 30%;
+}
+.mybooking {
+  width: 100%;
+  background: #fff;
+  overflow: hidden;
+  font-size: 90%;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 89vh;
+}
+.mybooking .card-container {
+  width: 45%;
+  margin: 2% 0% 1% 0%;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+}
+.mybooking .card {
+  border: none;
+}
+.mybooking .image-container {
+  width: 15;
+  padding: 3% 0% 4% 1%;
+  /* border-radius: 10px; */
+}
+.mybooking .text-container {
+  padding: 2% 5%;
+}
+.mybooking .text-container .card-title {
+  font-weight: 600;
+}
+
+.add-house {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3% 0%;
+}
+.add-house .add-house-container {
+  width: 45%;
+  background: #f1f1f1;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  padding: 2% 5%;
+}
+
+.add-house .add-house-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.add-house h2 {
+  text-align: center;
+  font-size: 200%;
+  padding-bottom: 3%;
+  font-weight: 550;
+}
+.add-house label {
+  font-weight: 550;
+  font-size: 90%;
+}
+.add-house select,
+.add-house option,
+.add-house input {
+  background: transparent;
+  font-size: 80%;
+  font-weight: 500;
+  border-radius: 8px;
+}
+.add-house .add-house-btn,
+.update-house button {
+  width: 50%;
+  padding: 1% 0%;
+  background: linear-gradient(90deg, #b300f5, #8000f5);
+  border: none;
+  color: #fff;
+  border-radius: 100px;
+  font-weight: 500;
+}
+.update-house {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 0%;
+}
+.update-house .update-house-form {
+  width: 45%;
+  padding: 2% 5%;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  font-size: 90%;
+  font-weight: 550;
+}
+.update-house input,
+.update-house select,
+.update-house option {
+  font-size: 85%;
+  font-weight: 500;
+}
+.update-house h2 {
+  text-align: center;
+}
+.update-house button {
+  margin-left: 25%;
+}
+.housed {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3% 0% 0% 0%;
+}
+.housed .housed-container {
+  /* padding: 0% 0% 0% 0%; */
+  width: 60%;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  border: none;
+}
+.housed .image-container {
+  padding: 10% 0% 0% 8%;
+}
+.housed .text-container {
+  padding: 0% 0% 0% 8%;
+  font-size: 90%;
+  font-weight: 550;
+}
+
+.housed-container .status{
+  text-transform: capitalize;
+}
+.housed button {
+  width: 45%;
+  border: none;
+  margin-right: 5%;
+  padding: 1% 0%;
+  background: linear-gradient(90deg, #b300f5, #8000f5);
+  border-radius: 100px;
+  font-size: 90%;
+  font-weight: 600;
+  color: #fff;
+}
+/* .housed h5{
+  font-weight: 600;
+} */
+
+.admintab {
+  background: #142740;
+  display: flex;
+  flex-direction: column;
+  padding: 0% 2%;
+}
+.admintab button {
+  width: 100%;
+  padding: 5px 0px;
+  margin: 4% 0%;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+}
+.admintab-wrapper {
+  position: sticky;
+  top: 30px;
+}
+.adminpage {
+  background-color: #fff;
+  padding: 1% 0%;
+}
+.admin-total {
+  background: linear-gradient(90deg, #b300f5, #8000f5);
+  color: #fff;
+  font-weight: 500;
+}
+.admin-house {
+  width: 28%;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  border: none;
+  padding-top: 1%;
+  margin: 2% 2% 2% 3%;
+}
+.admin-house img {
+  border-radius: 10px;
+}
+.admin-dashboard {
+  border: 2px solid #8000f5;
+}
+.admin-dashboard a, .admin-dashboard .view-list{
+  text-decoration: none;
+  color: #000;
+  font-size: 90%;
+  font-weight: 600;
+}
+.myhouse {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 89vh;
+  background: #fff;
+}
+
+.view-user {
+  padding: 1%;
+  border: none;
+}
+.view-user .user {
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  overflow: hidden;
+  font-weight: 500;
+  height: 100%;
+}
+.view-user h5 {
+  font-weight: 600;
+}
+.view-booking {
+  padding: 2%;
+  border: none;
+}
+.view-booking .booking {
+  height: 100%;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  overflow: hidden;
+}
+.view-booking .image-container {
+  padding: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.logout-btn {
+  color: #fff;
+  text-decoration: none;
+}
+.contact-page {
+  background: url("/images/about-bg1.png") no-repeat -43.5% 2000%,
+    linear-gradient(#0c0c1d 50%, #fff 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 89vh;
+}
+.contact-page .content-container{
+  width: 85%;
+  text-align: center;
+  background: #8000f5;
+  padding: 4% 10%;
+  color: #fff;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-page .content-container .heading{
+  font-size: 170%;
+  font-weight: 700;
+}
+.contact-page .content-container .text{
+  font-size: 90%;
+  color: rgba(255, 255, 255, 0.7);
+}
+.contact-page .contact-container{
+  background: rgba(255, 255, 255, 0.2);
+  width: 33%;
+padding:  1% 0.5%;
+border-radius: 100px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+} 
+.contact-container span{
+  font-size: 95%;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.contact-container button{
+  border: none;
+  border-radius: 100px;
+  padding: 1.5% 5%;
+  font-weight: 600;
+}
+.contact-container a{
+  color: #000;
+  text-decoration: none;
+}
+.footer-home{
+  background-color: #0D1929;
+  color: #fff;
+}
+.footer-home .footer-heading{
+  padding: 0% 8%;
+}
+.footer-home, .footer-service, .footer-industry, .footer-company{
+  /* padding: 0% 0%; */
+}
+.footer-home h3{
+  padding: 1% 0%;
+  font-size: 200%;
+  font-weight: 700;
+  color:  #8000f5;
+}
+.footer-home .footer-title{
+  font-size: 90%;
+  color: rgba(255, 255, 255, 0.7);
+}
+.footer-home .footer-service p, .footer-home .footer-industry p, .footer-home .footer-company p{
+  font-size: 90%;
+  color: rgba(255, 255, 255, 0.7);
+}
+.footer-home {
+  padding: 2% 0% 0% 0%;
+}
+.hr-line{
+  width: 83%;
+  height: 4%;
+  margin-left: 8%;
+}
+.footer-home .footer-service h5, .footer-home .footer-industry h5, .footer-home .footer-company h5{
+  padding-bottom: 5%;
+}
+.footer-home .icon a{
+  color: #fff;
+  font-size: 150%;
+  padding: 0% 3%;
+}
+.footer-home .year{
+  font-size: 90%;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
